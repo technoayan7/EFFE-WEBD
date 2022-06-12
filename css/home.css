@@ -332,6 +332,10 @@ html {
     #about .container {
         flex-direction: column;
     }
+    .content 
+    {
+        font-size: 60%;
+    }
 }
 
 [data-scroll] {
