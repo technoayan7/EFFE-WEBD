@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Official website for 2022 edition of Effervesence">
+    <meta name="og:title" property="og:title" content="Effervescence 2022">
+    <meta property="og:image:width" content="1280" />
+    <meta property="og:image:height" content="1280" />
+    <link rel="icon" type="image/x-icon" href="assets/landing_view/favicon.jpg">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/shared.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap">
+    <script src="https://unpkg.com/scroll-out/dist/scroll-out.min.js"></script>
+    <title>Effervescence 2022</title>
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-1HXPJ00LWH"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-1HXPJ00LWH');
+    </script>
+</head>
+
+<body>
+    <nav id="navbar">
+        <div class="large">
+            <h3><a href="#">Effervescence 22</a></h3>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="events">Events</a></li>
+                <li><a href="sponsors">Sponsors</a></li>
+                <li><a href="Gallery">Gallery</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </div>
+
+        <div class="small-nav">
+            <h3><a href="#">Effervescence 22</a></h3>
+            <button id="toggle-navbar" onclick="navbarToggleFun()">
+                <div class="hamburger" id="hamburger">
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                </div>
+            </button>
+        </div>
+        <ul class="small-nav-links small-nav" id="mobile-nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="events">Events</a></li>
+            <li><a href="sponsors">Sponsors</a></li>
+            <li><a href="Gallery">Gallery</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <section id="landing-view">
+        <ul id="landing-view-scene">
+
+            <li data-depth="0.1" id="petals" class="layer">
+                <img src="assets/landing_view/Merged logo.png" width="46px" alt="petals">
+            </li>
+            <li data-depth="0.2" id="lights" class="layer">
+                <img src="assets/landing_view/lights.png" alt="petals">
+            </li>
+            <li data-depth="0.3" id="grass_1" class="layer">
+                <img src="assets/landing_view/bg_1.png" alt="grass">
+            </li>
+            <li data-depth="0.5" id="grass_2" class="layer">
+                <img src="assets/landing_view/bg_2.png" alt="grass">
+            </li>
+            <li data-depth="0.6" id="grass_3" class="layer">
+                <img src="assets/landing_view/bg_3.png" alt="grass">
+            </li>
+            <li data-depth="0.7" id="tree" class="layer">
+                <img src="assets/landing_view/bg_4.png" alt="grass">
+            </li>
+            <li data-depth="0" id="event-title" class="layer">
+                <div class="blur">
+                    <div class="content">
+                        <h2>Effervescence22</h2>
+                        <h2>Effervescence22</h2>
+                    </div>
+                    <div class="themename">
+                        <p class="themename">IIIT Allahabad</p>
+                    </div>
+
+                    <!-- <p class="event-dates">3-6 March 2022</p> -->
+                </div>
+            </li>
+        </ul>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <div class="about-content" data-scroll>
+                <h2>About</h2>
+                <p>Effervescence, popularly known as Effe is the annual college cultural festival of Indian Institute of
+                    Information
+                    Technology, Allahabad. Initiated by a group of passionate IIITians in 2004, it has become Second
+                    Largest college
+                    festival in Uttar Pradesh in it's successful journey of 14 years. Over 12k people attended 80+
+                    events held in the last
+                    year's fest which had a reach to over 250+ colleges.
+                </p>
+                <p>Effervescence includes phenomenal and gripping performances by artists of both national (Benny Dayal,
+                    Neha Kakkar, Sona
+                    Mahapatra, Lucky Ali, Daler Mehndi, The Local Train) and international fame (Jeremy Arndt, Limor
+                    Ballas ).</p>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="main-content">
+            <div class="left box">
+                <div class="content">
+                    <img src="./assets/landing_view/logo.gif" alt="Effervescence-logo" class="footer-logo">
+                </div>
+            </div>
+
+            <div class="center box" data-scroll>
+                <h2>Links</h2>
+                <div class="content-with-underline">
+                    <div>
+                        <span class="text"><a href="#">Home</a></span>
+                    </div>
+                    <div>
+                        <span class="text"><a href="#about">About</a></span>
+                    </div>
+                    <div>
+                        <span class="text"><a href="/events">Events</a></span>
+                    </div>
+                    <div>
+                        <span class="text"><a href="/sponsors">Sponsors</a></span>
+                    </div>
+                    <div>
+                        <span class="text"><a href="/Gallery">Gallery</a></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="right box" data-scroll id="contact">
+                <h2>Let's Connect</h2>
+                <div class="content-with-underline">
+                    <div class="content">
+                        <div class="place">
+                            <span class="fas fa-map-marker-alt"></span>
+                            <span class="text"> <a href="https://goo.gl/maps/ZJasTq8tMtGqooW37">IIIT
+                                    Allahabad,<br />Allahabad, Uttar Pradesh - 211012</a></span>
+                        </div>
+                        <div class="phone">
+                            <span class="fas fa-phone-alt"></span>
+                            <span class="text"><a href="tel:0532 - 2922030">0532 - 2922030</a></span>
+                        </div>
+                        <div class="email">
+                            <span class="fas fa-envelope"></span>
+                            <span class="text"><a
+                                    href="mailto:effervescence@iiita.ac.in">effervescence@iiita.ac.in</a></span>
+                        </div>
+                    </div>
+                    <div class="social">
+                        <a href="https://www.facebook.com/effervescence.iiita/"><span
+                                class="fab fa-facebook-f"></span></a>
+                        <a href="https://mobile.twitter.com/goeffervescence"><span class="fab fa-twitter"></span></a>
+                        <a href="https://www.instagram.com/goeffervescence/"><span class="fab fa-instagram"></span></a>
+                        <a href="https://www.youtube.com/c/effervescenceiiitald"><span
+                                class="fab fa-youtube"></span></a>
+                        <a href="https://www.linkedin.com/company/effe.iiita/"><span class="fab fa-linkedin"></span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bottom">
+            <center>
+                <span class="credit">Created By Effervesence </a> | </span>
+                <span class="far fa-copyright"></span><span> 2022 All rights reserved.</span>
+            </center>
+        </div>
+    </footer>
+    <script src="js/home.js"></script>
+</body>
+
+</html>
