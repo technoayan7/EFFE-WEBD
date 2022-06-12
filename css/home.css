@@ -281,7 +281,7 @@ html {
 #about {
     width: 100%;
     background-color: black;
-/*     background-image: url('xl.svg'); */
+    background-image: url('https://raw.githubusercontent.com/technoayan7/EFFE-WEBD/0279e4a31e62a936998b74c40238fbced2b8e3f5/assets/landing_view/sm.svg'), url('https://raw.githubusercontent.com/technoayan7/EFFE-WEBD/0279e4a31e62a936998b74c40238fbced2b8e3f5/assets/landing_view/xl.svg');
     background-size: cover, cover;
     padding: 100px 0;
     min-height: 70vh;
