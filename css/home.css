@@ -281,7 +281,7 @@ html {
 #about {
     width: 100%;
     background-color: black;
-    background-image: url('https://dhruvil-lakhtaria.github.io/incident-2022/assets/img/sm.svg'), url('https://dhruvil-lakhtaria.github.io/incident-2022/assets/img/xl.svg');
+/*     background-image: url('xl.svg'); */
     background-size: cover, cover;
     padding: 100px 0;
     min-height: 70vh;
